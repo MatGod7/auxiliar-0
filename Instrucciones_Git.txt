@@ -19,7 +19,7 @@ git checkout rama-1                 -- comando que permite entrar a la rama-1 (c
  
  git merge rama-1                   -- comando que permite traspasar archivos de una rama a otra (es necesario estar en master si se quiere hacer git merge rama-1)
                                        estando en rama-1 debería usarse git megre master
-
+*** HACER PULL Y PÚSH PARA GUARDAR LOS CAMBIOS***
 
 Pasos para crear un repositorio en GitHub y clonarlo en el pc
 
