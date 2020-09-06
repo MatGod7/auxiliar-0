@@ -26,6 +26,8 @@ Comandos extra:
 
 cp archivo_existente.algo archivo_nuevo.algo    -- comando que copia el contenido de un archivo existente 
                                                    y crea un archivo nuevo con el mismo contenido del primer archivo en la misma carpeta
+cd ..                                           -- comando que te devuelve a la carpeta que almacena el lugar donde estas
+                                                   ejemplo: carpeta_A/carpeta_B -> cd .. -> carpeta_A
 mv carpeta_A/archivo_A.algo carpeta_B           -- comando que mueve un archivo A de una carpeta A a una carpeta B,
                                                    para usarlo se debe estar en una carpeta que contenga las carpetas A y 
 cat archivo.algo                                -- comando que muestra el contenido de un archivo
