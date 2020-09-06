@@ -1,0 +1,18 @@
+git init        -- comando que inicializa un repositorio en una carpeta, debes estar en la carpeta para inicializar
+git status      -- comando que revisa el estado de un repositorio en una carpeta
+git add .       -- comando que adiere todos los archivos de la carpeta al repositorio git
+
+
+Pasos para crear un repositorio en GitHub y clonarlo en el pc
+
+- seleccionar nuevo repositorio en GitHub 
+- seleccionar SSH y crearlo (puede ser privado o publico)
+- se entregará un link al crearlo, copiar ese link
+- en la terminal de git, ir a la carpeta donde lo quieres tener y escribir
+git clone link_del_repositorio.git 
+
+- 
+- 
+- 
+- 
+- 
