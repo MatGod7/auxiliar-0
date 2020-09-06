@@ -1,11 +1,15 @@
 Comandos git para archivos:
 
-git init        -- comando que inicializa un repositorio en una carpeta, debes estar en la carpeta para inicializar
-git status      -- comando que revisa el estado de un repositorio en una carpeta
-git add .       -- comando que adiere todos los archivos de la carpeta al repositorio git
+git init                            -- comando que inicializa un repositorio en una carpeta, debes estar en la carpeta para inicializar
+git status                          -- comando que revisa el estado de un repositorio en una carpeta
+git add .                           -- comando que adhiere todos los archivos de la carpeta al repositorio git
 git commit -m "Mensaje descriptivo del nuevo archivo"     -- comando que agrega de forma definitiva los archivos que adherimos al repositorio git
-
-
+git clone link_del_repositorio.git  -- comando que dado un link de repositorio de GitHub, agrega ese repositorio al pc
+git pull origin nombre_rama         -- comando que guarda los cambios en una rama de GitHub en nuestro pc
+                                       master es la rama maestra (solo guardar codigos que funcionan ahí)
+git push origin nombre_rama         -- comando que guarda los cambios en una rama de nuestro pc en GitHub
+git branch rama-1                   -- comando que crea una rama (rama1), ideal para trabajar en equipo (cada uno en su rama)
+git checkout rama-1                 -- comando que permite entrar a la rama-1 (creada anteriormente, por defecto uno se encuentra en la rama master)
 
 Pasos para crear un repositorio en GitHub y clonarlo en el pc
 
@@ -24,8 +28,8 @@ git push origin master          (esto sube el archivo a GitHub)(funciona solo si
 - si queremos editar en GitHub el archivo y lo queremos actualizar en el pc se debe escribir en el archivo donde se encuentre el git:
 git pull origin master          (es EXTREMADAMENTE IMPORTANTE hacer pull antes que push)
 
-*esto se debe a que git no va a saber si mantener o no el archivo en la web, esto sirve para trabajar con amigos, ya que al hacer 'git pull origin master' 
-y luego 'git push origin master' primero estamos actualizando lo que hay en la web y luego estamos reescribiendo lo que nosotros reescribimos.*
+*Esto se debe a que git no va a saber si mantener o no el archivo en la web, al hacer 'git pull origin master' y luego 'git push origin master' 
+primero estamos actualizando lo que hay en la web y luego estamos reescribiendo lo que nosotros escribimos.*
 
 
 Comandos extra:
