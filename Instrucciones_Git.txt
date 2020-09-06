@@ -1,6 +1,7 @@
 git init        -- comando que inicializa un repositorio en una carpeta, debes estar en la carpeta para inicializar
 git status      -- comando que revisa el estado de un repositorio en una carpeta
 git add .       -- comando que adiere todos los archivos de la carpeta al repositorio git
+git commit -m "Mensaje descriptivo del nuevo archivo"     -- comando que agrega de forma definitiva los archivos que adherimos al repositorio git
 
 
 Pasos para crear un repositorio en GitHub y clonarlo en el pc
