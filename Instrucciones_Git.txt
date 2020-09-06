@@ -41,3 +41,4 @@ cd ..                                           -- comando que te devuelve a la 
 mv carpeta_A/archivo_A.algo carpeta_B           -- comando que mueve un archivo A de una carpeta A a una carpeta B,
                                                    para usarlo se debe estar en una carpeta que contenga las carpetas A y 
 cat archivo.algo                                -- comando que muestra el contenido de un archivo
+algo nuevo
