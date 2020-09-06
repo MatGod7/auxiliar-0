@@ -9,7 +9,7 @@ git commit -m "Mensaje descriptivo del nuevo archivo"     -- comando que agrega 
 Pasos para crear un repositorio en GitHub y clonarlo en el pc
 
 - seleccionar nuevo repositorio en GitHub 
-- seleccionar SSH y crearlo (puede ser privado o publico)
+- seleccionar SSH o HTPS (para el primero es necesario setear una llave) y crearlo (puede ser privado o publico)
 - se entregará un link al crearlo, copiar ese link
 - en la terminal de git, ir a la carpeta donde lo quieres tener y escribir
 git clone link_del_repositorio.git 
