@@ -6,21 +6,27 @@ git add .       -- comando que adiere todos los archivos de la carpeta al reposi
 git commit -m "Mensaje descriptivo del nuevo archivo"     -- comando que agrega de forma definitiva los archivos que adherimos al repositorio git
 
 
+
 Pasos para crear un repositorio en GitHub y clonarlo en el pc
 
 - seleccionar nuevo repositorio en GitHub 
+
 - seleccionar SSH o HTPS (para el primero es necesario setear una llave) y crearlo (puede ser privado o publico)
+
 - se entregará un link al crearlo, copiar ese link
-- en la terminal de git, ir a la carpeta donde lo quieres tener y escribir
+
+- en la terminal de git, ir a la carpeta donde lo quieres tener y escribir:
 git clone link_del_repositorio.git 
 
-- 
-git pull origin master
+- poner en esta carpeta creada los archivos que deseas guardar (ponerlo con los comandos extra y hacerle 'add' y 'commit') y luego escribir:
+git push origin master          (esto sube el archivo a GitHub)(funciona solo si no existe el archivo en GitHub)
 
-- 
-git push origin master
+- si queremos editar en GitHub el archivo y lo queremos actualizar en el pc se debe escribir en el archivo donde se encuentre el git:
+git pull origin master          (es EXTREMADAMENTE IMPORTANTE hacer pull antes que push)
 
-- 
+*esto se debe a que git no va a saber si mantener o no el archivo en la web, esto sirve para trabajar con amigos, ya que al hacer 'git pull origin master' 
+y luego 'git push origin master' primero estamos actualizando lo que hay en la web y luego estamos reescribiendo lo que nosotros reescribimos.*
+
 
 Comandos extra:
 ls                                              -- comando que muestra los contenidos que tiene la carpeta en la que estamos
