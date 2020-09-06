@@ -1,3 +1,5 @@
+Comandos git para archivos:
+
 git init        -- comando que inicializa un repositorio en una carpeta, debes estar en la carpeta para inicializar
 git status      -- comando que revisa el estado de un repositorio en una carpeta
 git add .       -- comando que adiere todos los archivos de la carpeta al repositorio git
@@ -13,7 +15,17 @@ Pasos para crear un repositorio en GitHub y clonarlo en el pc
 git clone link_del_repositorio.git 
 
 - 
+git pull origin master
+
 - 
+git push origin master
+
 - 
-- 
-- 
+
+Comandos extra:
+
+cp archivo_existente.algo archivo_nuevo.algo    -- comando que copia el contenido de un archivo existente 
+                                                   y crea un archivo nuevo con el mismo contenido del primer archivo en la misma carpeta
+mv carpeta_A/archivo_A.algo carpeta_B           -- comando que mueve un archivo A de una carpeta A a una carpeta B,
+                                                   para usarlo se debe estar en una carpeta que contenga las carpetas A y 
+cat archivo.algo                                -- comando que muestra el contenido de un archivo
