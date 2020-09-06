@@ -15,6 +15,12 @@ git push origin nombre_rama         -- comando que guarda los cambios en una ram
 git branch rama-1                   -- comando que crea una rama (rama1), ideal para trabajar en equipo (cada uno en su rama)
 git checkout rama-1                 -- comando que permite entrar a la rama-1 (creada anteriormente, por defecto uno se encuentra en la rama master)
 
+******HACER GIT MERGE MASTER EN RAMA  PRIMERO Y LUEGO GIT MERGE RAMA EN MASTER*****
+ 
+ git merge rama-1                   -- comando que permite traspasar archivos de una rama a otra (es necesario estar en master si se quiere hacer git merge rama-1)
+                                       estando en rama-1 debería usarse git megre master
+
+
 Pasos para crear un repositorio en GitHub y clonarlo en el pc
 
 - seleccionar nuevo repositorio en GitHub 
