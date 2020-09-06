@@ -23,7 +23,7 @@ git push origin master
 - 
 
 Comandos extra:
-
+ls                                              -- comando que muestra los contenidos que tiene la carpeta en la que estamos
 cp archivo_existente.algo archivo_nuevo.algo    -- comando que copia el contenido de un archivo existente 
                                                    y crea un archivo nuevo con el mismo contenido del primer archivo en la misma carpeta
 cd ..                                           -- comando que te devuelve a la carpeta que almacena el lugar donde estas
